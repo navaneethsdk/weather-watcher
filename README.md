@@ -26,7 +26,7 @@ Navigate into the project directory and install the dependencies by running the 
 
 ```
 cd weather-watcher-assessment
-npm install
+yarn install
 ```
 
 ### Running the Application
@@ -34,7 +34,7 @@ npm install
 To run the application, use the following command:
 
 ```
-npm start
+yarn start
 ```
 
 This will start the development server and open the application in your default browser at `http://localhost:3000`.
