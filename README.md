@@ -1,70 +1,81 @@
-# Getting Started with Create React App
+# Weather Watcher Assessment
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Introduction
 
-## Available Scripts
+Welcome to the React onboarding assessment! This assessment is designed to evaluate your proficiency in React and web development. You will be given a React application called `Weather Watcher`, which has three parts:
 
-In the project directory, you can run:
+1. A form that accepts latitude and longitude inputs and displays weather details like temperature, humidity, and wind speed.
+2. A section that displays the current location of the user based on their browser location.
+3. A table that lists popular cities in India with their latitude and longitude, along with a search filter to search for cities by name.
 
-### `npm start`
+Your task is to modify the Weather Watcher application by implementing the above three parts.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Getting started
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Clone the repository
 
-### `npm test`
+Clone the repository by running the following command in your terminal:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+git clone https://github.com/{your-username}/weather-watcher-assessment.git
+```
 
-### `npm run build`
+### Install Dependencies
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Navigate into the project directory and install the dependencies by running the following command:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+cd weather-watcher-assessment
+npm install
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Running the Application
 
-### `npm run eject`
+To run the application, use the following command:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```
+npm start
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+This will start the development server and open the application in your default browser at `http://localhost:3000`.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Folder Structure
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+The repository contains the following files and folders:
 
-## Learn More
+- `public`: contains the HTML file that is served to the browser
+- `src`: contains the React application
+  - `components`: contains all React components used in the application
+  - `App.jsx`: the main component that renders the entire application
+  - `index.js`: the entry point for the React application
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+You should only modify the files in the `src` folder.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## OpenWeatherMap API
 
-### Code Splitting
+You will need to obtain an API key from OpenWeatherMap to fetch weather data. You can obtain an API key by creating an account on [OpenWeatherMap](https://openweathermap.org/) and navigating to the [API Keys](https://home.openweathermap.org/api_keys) tab in your account dashboard. Once you have obtained an API key, create a `.env` file in the root of the project and add the following line with your API key:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```
+REACT_APP_API_KEY=<your_api_key_here>
+```
 
-### Analyzing the Bundle Size
+This file is ignored by git and will not be committed to the repository.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+To access the weather data, you may use the `Current weather data` API which provides various weather-related data for a given latitude and longitude. Here's the link to the API documentation: https://openweathermap.org/current
 
-### Making a Progressive Web App
+## Logistics
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- You will have a total of 1 day to complete this assessment.
+- You are allowed to use any resources you would normally use when developing, such as online documentation and Google.
+- The assessment will be evaluated based on the following criteria:
+  1. Code quality
+  2. Functionality
+  3. Best practices
+- Candidates need not put much effort into improving the aesthetics of the app.
+- The candidate should not share the code or the API key with anyone else.
+- The candidate should not plagiarize or copy code from other sources.
+- Once you have completed the assessment, please create an issue mentioning `@yedhink` and `@navaneethsdk` to review it.
 
-### Advanced Configuration
+## Conclusion
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+We hope this README file helps you get started with the `Weather Watcher` assessment. If you have any questions or need further assistance, please feel free to contact us. Good luck with your assessment!
