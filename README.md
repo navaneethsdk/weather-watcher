@@ -25,7 +25,7 @@ git clone https://github.com/navaneethsdk/weather-watcher.git
 Navigate into the project directory and install the dependencies by running the following command:
 
 ```
-cd weather-watcher-assessment
+cd weather-watcher
 yarn install
 ```
 
