@@ -8,7 +8,7 @@ Welcome to the React onboarding assessment! This assessment is designed to evalu
 2. A section that displays the current location of the user based on their browser location.
 3. A table that lists popular cities in India with their latitude and longitude, along with a search filter to search for cities by name.
 
-Your task is to modify the `Weather Watcher` application by implementing the above three parts.
+Your task is to modify the `Weather Watcher` application by implementing the above three parts. Refer [this](https://app.usebubbles.com/sUGviK4L9ch3csYRXwrvV4/weather-watcher-application) video to get a better understanding of the application.
 
 ## Getting started
 
