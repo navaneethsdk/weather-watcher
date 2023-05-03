@@ -17,7 +17,7 @@ Your task is to modify the `Weather Watcher` application by implementing the abo
 Clone the repository by running the following command in your terminal:
 
 ```
-git clone https://github.com/navaneethsdk/weather-watcher.git
+git clone git@github.com:navaneethsdk/weather-watcher.git
 ```
 
 ### Install Dependencies
