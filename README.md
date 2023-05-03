@@ -16,8 +16,10 @@ React application called `Weather Watcher`, which has three parts:
 Your task is to modify the `Weather Watcher` application by implementing the
 above three parts. Refer to
 [this](https://app.usebubbles.com/uHuHmRcy1bBCZTh131h3eJ/weather-watcher) video
-to get a better understanding of the application. Ensure you read the entire
-document before proceeding with the assessment.
+to get a better understanding of the application. 
+
+**Ensure you read the entire
+document before proceeding with the assessment.**
 
 ## Getting started
 
@@ -112,8 +114,8 @@ To get started with this assessment, please follow the instructions below:
   2. Functionality
   3. Best practices
 - Candidates need not put much effort into improving the aesthetics of the app.
-- The candidate should not share the code or the API key with anyone else.
-- The candidate should not plagiarize or copy code from other sources.
+- Candidates should not share the code or the API key with anyone else.
+- Candidates should not plagiarize or copy code from other sources.
 - Once you have completed the assessment, please create an issue in your
   repository mentioning `@yedhink` and `@navaneethsdk` to review it.
 
