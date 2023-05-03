@@ -15,7 +15,7 @@ React application called `Weather Watcher`, which has three parts:
 
 Your task is to modify the `Weather Watcher` application by implementing the
 above three parts. Refer to
-[this](https://app.usebubbles.com/uHuHmRcy1bBCZTh131h3eJ/weather-watcher) video
+[this](https://app.usebubbles.com/qHZ5gJi6xNrDNeyc7fL1wX/weather-watcher) video
 to get a better understanding of the application. 
 
 **Ensure you read the entire
